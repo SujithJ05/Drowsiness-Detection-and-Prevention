@@ -1,0 +1,14 @@
+name: project_e11_sota
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - opencv
+  - pip
+  - pip:
+    - mediapipe
+    - pygame
+    - pyserial
+    - scipy
